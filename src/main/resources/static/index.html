@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Security</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+
 </head>
 <body>
-$END$
+<table>
+  <tr><th><label for ="username">username</label></th><td><input type="text" id ="username"> </td></tr>
+  <tr><th><label for="password">password</label> </th><td><input type = "password" id ="password"></td></tr>
+  <tr><td><button id = "register" onclick="register()"> register </button></td> <td><button id = "login" onclick="login() "> log in </button></td></tr>
+</table>
 </body>
 </html>
